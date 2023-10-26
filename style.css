@@ -1,0 +1,81 @@
+body {
+    background-color: rgb(124, 124, 237);
+    font-family: sans-serif;
+    margin: 2rem;
+}
+.dictionary {
+    border: black 1px solid;
+    box-shadow: 5px 5px 10px;
+    height: 30rem;
+    width: 40rem;
+    background-color: whitesmoke;
+    border-radius: 20px;
+    margin: auto;
+    overflow-y: scroll;
+}
+
+.dictionary>h1 {
+    text-align: center;
+    font-weight: 100;
+}
+
+.dictionary>.searchform {
+    text-align: center;
+}
+
+.dictionary>.searchform>.input {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    
+}
+button {
+    padding: 0.8rem;
+    border: none;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+}
+
+.defenitions {
+    line-height: 2.5rem;
+    font-size: 1rem;
+    padding: 1rem 4rem 1rem 4rem;
+}
+
+
+.meaning {
+    margin-top: 0rem;
+    padding: 0rem 0rem 0rem 1rem;
+
+}
+
+h2 {
+    margin-bottom: 0;
+    padding: 0rem 0rem 0rem 1rem;
+    font-weight: 550;
+
+}
+
+.definitionContainer {
+    padding: 0rem 0rem 0rem 1rem;
+    border-left: 3px solid rgb(104, 104, 167);
+    border-radius: 7px;
+   
+}
+
+.definitionContainer>h1 {
+    font-size: 1.8rem;
+    margin-bottom: 0.7rem;
+    font-weight: 250;
+}
+
+.define {
+    margin-top: 0rem;
+  
+}
+
+.errorMessage {
+    text-align: center;
+    color: black;
+}
